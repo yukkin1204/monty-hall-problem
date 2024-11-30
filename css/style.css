@@ -1,0 +1,106 @@
+#title-msg {
+  font-weight: 700;
+  font-size: 1.2rem !important;
+}
+@media (min-width: 768px) {
+  #title-msg {
+    font-size: 1.5rem !important;
+  }
+}
+
+.normal-msg {
+  font-size: 0.8rem !important;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+@media (min-width: 768px) {
+  .normal-msg {
+    font-size: 1rem !important;
+  }
+}
+
+#intro-msg1 {
+  margin-top: 1.5rem;
+}
+
+#count-msg {
+  margin-top: 1.5rem;
+}
+
+.custom-container {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  max-width: 1200px !important;
+}
+
+.custom-row {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.custom-card {
+  background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
+  margin-bottom: 1.5rem;
+}
+
+.custom-card-body {
+  height: 40px;
+}
+@media (min-width: 768px) {
+  .custom-card-body {
+    height: 60px;
+  }
+}
+
+.custom-btn {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  border-radius: 15px !important;
+  height: 20px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  font-size: 0.6rem !important;
+}
+@media (min-width: 768px) {
+  .custom-btn {
+    top: -15px;
+    height: 30px;
+    font-size: 1rem !important;
+  }
+}
+
+.hint-msg {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 0.6rem !important;
+}
+@media (min-width: 768px) {
+  .hint-msg {
+    font-size: 1rem !important;
+  }
+}
+
+#reset-btn {
+  font-size: 0.75rem;
+}
+@media (min-width: 768px) {
+  #reset-btn {
+    font-size: 1rem;
+  }
+}
+
+#retry-btn {
+  margin-left: 15px;
+  font-size: 0.75rem;
+}
+@media (min-width: 768px) {
+  #retry-btn {
+    font-size: 1rem;
+  }
+}

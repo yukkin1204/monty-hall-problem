@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta property="og:url" content="https://yukkin1204.github.io/monty-hall-problem/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Monty Hall problem" />
+    <meta property="og:description" content="モンティ・ホール問題の実験を行おう" />
+    <title>Monty Hall problem</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="py-4">
+      <div class="container text-center">
+        <h3 id="title-msg">実験 モンティ・ホール問題</h3>
+        <h5 class="normal-msg" id="intro-msg1"></h5>
+        <h5 class="normal-msg" id="intro-msg2"></h5>
+      </div>
+    </header>
+    <div class="container custom-container">
+      <div class="row justify-content-center">
+        <div class="col-4 col-lg-2 custom-row">
+          <div class="card custom-card">
+            <div class="card-body custom-card-body">
+              <button type="button" class="btn-lg btn-dark custom-btn" id="btn0">宝箱A</button>
+              <h5 class="hint-msg" id="msg0"></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-lg-2 custom-row">
+          <div class="card custom-card">
+            <div class="card-body custom-card-body">
+              <button type="button" class="btn-lg btn-dark custom-btn" id="btn1">宝箱B</button>
+              <h5 class="hint-msg" id="msg1"></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-lg-2 custom-row">
+          <div class="card custom-card">
+            <div class="card-body custom-card-body">
+              <button type="button" class="btn-lg btn-dark custom-btn" id="btn2">宝箱C</button>
+              <h5 class="hint-msg" id="msg2"></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <button type="button" class="btn-lg btn-secondary text-nowrap" id="reset-btn">リセット</button>
+      <button type="button" class="btn-lg btn-primary text-nowrap" id="retry-btn">リトライ</button>
+      <h5 class="normal-msg" id="count-msg"></h5>
+      <h5 class="normal-msg" id="success-count-msg"></h5>
+      <h5 class="normal-msg" id="success-rate-msg"></h5>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
